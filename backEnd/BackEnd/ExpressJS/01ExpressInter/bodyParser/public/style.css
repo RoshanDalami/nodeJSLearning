@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(94, 26, 219);
+}
+
+
+#check-box{
+    margin-left: 100px;
+    display: inline;
+}
+#remMe{
+    color: white;
+    text-align: center;
+   
+}
+#btn-signin{
+    width: 315px;
+    height: 30px;
+    border-radius: 12px;
+ color: white;
+ background-color: rgb(75, 75, 255);
+ border-style: solid;
+}
+#btn-signin :hover{
+    background-color: white;
+}
+
+#email{
+    font-size: 25px;
+}
+#password
+{
+    font-size: 25px;
+}
+.top-label{
+    color: white;
+  margin-left:65px ;
+    
+   
+}
+.form{
+    margin-top: 250px;
+    margin-left: 450px;
+    
+}

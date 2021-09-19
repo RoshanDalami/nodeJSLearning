@@ -1,0 +1,7 @@
+<% if(!user) {%> 
+<!-- if value use '=' if not no'=' -->
+<p>Welcome to my Page. Please <a href="/login">LogIn</a></p>
+<%} else{ %>
+    <p>Hello <%= user.username %>. View your <a href="/profile">Profile Here</a></p>
+    <%}%>
+
